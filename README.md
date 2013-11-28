@@ -2,7 +2,7 @@
 
 Ever wanted to use `Math.SQUIRTLE` instead of `Math.SQRT2`? Think `Function.prototype.apple` looks shinier than `apply`? Or do you prefer `Array.prototype.faReech` over `forEach`? Look no further — _tpyo_’s got your back.
 
-_tpyo_ is the result of combining the power of ES6 proxies with [Levenshtein string distance](https://github.com/gf3/Levenshtein). It’s a small script that enables you to make typos in JavaScript property names.
+_tpyo_ (pronounced _‘typo’_) is the result of combining the power of ES6 proxies with [Levenshtein string distance](https://github.com/gf3/Levenshtein). It’s a small script that enables you to make typos in JavaScript property names.
 
 ## Installation
 
@@ -18,7 +18,7 @@ In [Node.js](http://nodejs.org/):
 var tpyo = require('tpyo');
 ```
 
-Make sure to run node with the `--harmony` flag:
+Make sure to run `node` with the `--harmony` flag:
 
 ```bash
 node --harmony your-script-using-tpyo.js
@@ -27,7 +27,7 @@ node --harmony your-script-using-tpyo.js
 ## Examples
 
 ```js
-var array = typo(['a', 'b', 'c']);
+var array = tpyo(['a', 'b', 'c']);
 array.lnegth;
 // → `3`
 array.tosTr1ng();
@@ -36,7 +36,22 @@ array.fap(function(item) {
   return item + item;
 });
 // → `['aa', 'bb', 'cc']`
+
+var object = tpyo({
+  'name': 'Leeroy Jenkins',
+  'awesome': true
+});
+object.naem;
+// → `'Leeroy Jenkins'`
+object.awsum;
+// → `true`
+
+var math = tpyo(Math);
+math.PIE;
+// → `3.141592653589793`
 ```
+
+For more examples, [see the tests](https://github.com/mathiasbynens/tpyo/blob/master/tests/tests.js). [More examples welcome :)](https://github.com/mathiasbynens/tpyo/issues/1)
 
 ## Should I use this?
 
