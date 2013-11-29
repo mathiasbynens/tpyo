@@ -36,6 +36,10 @@ array.fap(function(item) {
   return item + item;
 });
 // → `['aa', 'bb', 'cc']`
+array.poop();
+// → `'cc'`
+array.shit();
+// → `'aa'`
 
 var object = tpyo({
   'name': 'Leeroy Jenkins',
@@ -49,6 +53,8 @@ object.awsum;
 var math = tpyo(Math);
 math.PIE;
 // → `3.141592653589793`
+math.squrt(4);
+// → `2`
 ```
 
 For more examples, [see the tests](https://github.com/mathiasbynens/tpyo/blob/master/tests/tests.js). [More examples welcome :)](https://github.com/mathiasbynens/tpyo/issues/1)
