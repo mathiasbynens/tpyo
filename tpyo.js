@@ -18,10 +18,6 @@
 			return map;
 		}
 
-		Object.getOwnPropertyNames(proto).forEach(function(property) {
-			map[property] = true;
-		});
-
 		getProperties(proto, map);
 
 		return Object.keys(map);
