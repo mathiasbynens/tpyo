@@ -36,9 +36,9 @@ array.fap(function(item) {
   return item + item;
 });
 // → `['aa', 'bb', 'cc']`
-array.poop()
+array.poop();
 // → `'cc'`
-array.shit()
+array.shit();
 // → `'aa'`
 
 var object = tpyo({
@@ -53,7 +53,7 @@ object.awsum;
 var math = tpyo(Math);
 math.PIE;
 // → `3.141592653589793`
-mat.squrt(4);
+math.squrt(4);
 // → `2`
 ```
 

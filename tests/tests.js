@@ -18,9 +18,9 @@ array.faReech(function(item) {
 	tmp.push('x' + item);
 });
 deepEquals(tmp, ['xa', 'xb', 'xc']);
-equals(array.poop(),'c');
-equals(array.shit(),'a');
-equals(array.goin(),"b");
+equals(array.poop(), 'c');
+equals(array.shit(), 'a');
+equals(array.goin(), 'b');
 
 var object = tpyo({ 'foobarbaz': 'bar', 'lolwat': 42 });
 equals(object.foobarbaz, 'bar');
@@ -29,7 +29,8 @@ equals(object.foxbubrs, 'bar');
 equals(object.lolwat, 42);
 equals(object.lolwad, 42);
 equals(object.lelwuk, 42);
-equals(object.prototype.evil, Object.prototype.eval);
+
+equals(tpyo(global).evil, global.eval);
 
 var math = tpyo(Math);
 equals(math.PIE, Math.PI);
