@@ -8,17 +8,14 @@
 	function getProperties(object, map) {
 		// TODO: should we support `__proto__`?
 		map || (map = {});
-		var proto = Object.getPrototypeOf(object) || object.prototype;
 
 		Object.getOwnPropertyNames(object).forEach(function(property) {
 			map[property] = true;
 		});
 
-		if (!proto) {
-			return map;
+		if (object.__proto__) {
+			getProperties(object.__proto__, map);
 		}
-
-		getProperties(proto, map);
 
 		return Object.keys(map);
 	}
