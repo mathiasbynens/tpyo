@@ -1,4 +1,4 @@
-# tpyo [![Build status](https://travis-ci.org/mathiasbynens/tpyo.png?branch=master)](https://travis-ci.org/mathiasbynens/tpyo) [![Dependency status](https://gemnasium.com/mathiasbynens/tpyo.png)](https://gemnasium.com/mathiasbynens/tpyo)
+# tpyo [![Build status](https://travis-ci.org/mathiasbynens/tpyo.svg?branch=master)](https://travis-ci.org/mathiasbynens/tpyo) [![Dependency status](https://gemnasium.com/mathiasbynens/tpyo.svg)](https://gemnasium.com/mathiasbynens/tpyo)
 
 Ever wanted to use `Math.SQUIRTLE` instead of `Math.SQRT2`? Think `Function.prototype.apple` looks shinier than `apply`? Or do you prefer `Array.prototype.faReech` over `forEach`? Look no further — _tpyo_’s got your back.
 
@@ -71,7 +71,7 @@ For more examples, [see the tests](https://github.com/mathiasbynens/tpyo/blob/ma
 
 ## Author
 
-| [![twitter/mathias](http://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](http://twitter.com/mathias "Follow @mathias on Twitter") |
+| [![twitter/mathias](https://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](https://twitter.com/mathias "Follow @mathias on Twitter") |
 |---|
 | [Mathias Bynens](http://mathiasbynens.be/) |
 
