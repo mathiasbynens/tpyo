@@ -3,7 +3,7 @@
 
 	require('harmony-reflect');
 	var Levenshtein = require('levenshtein');
-
+	var SPECIAL_METHODS = ['inspect'];
 	// inspired by @ultror’s http://jsfiddle.net/vGt8v/
 	function getProperties(object, map) {
 		// TODO: should we support `__proto__`?
@@ -35,6 +35,14 @@
 
 	function getProperty(target, name, receiver) {
 		if (name in target) {
+			return target[name];
+		}
+		if (name === 'toJSON') {
+			return function () {
+				return JSON.parse(JSON.stringify(target));
+			}
+		}
+		if (SPECIAL_METHODS.indexOf(name) !== -1) {
 			return target[name];
 		}
 		// get all properties
