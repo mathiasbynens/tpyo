@@ -2,7 +2,7 @@
 	"name": "tpyo",
 	"version": "0.1.0",
 	"description": "A simple ES6 proxy wrapper that enables you to make typos in property names.",
-	"homepage": "http://mths.be/tpyo",
+	"homepage": "https://mths.be/tpyo",
 	"main": "tpyo.js",
 	"keywords": [
 		"es6",
@@ -17,30 +17,20 @@
 		"typo",
 		"typos"
 	],
-	"licenses": [
-		{
-			"type": "MIT",
-			"url": "http://mths.be/mit"
-		}
-	],
+	"license": "MIT",
 	"author": {
 		"name": "Mathias Bynens",
-		"url": "http://mathiasbynens.be/"
+		"url": "https://mathiasbynens.be/"
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/mathiasbynens/tpyo.git"
 	},
-	"bugs": {
-		"url": "https://github.com/mathiasbynens/tpyo/issues"
-	},
+	"bugs": "https://github.com/mathiasbynens/tpyo/issues",
 	"files": [
 		"LICENSE-MIT.txt",
 		"tpyo.js"
 	],
-	"directories": {
-		"test": "tests"
-	},
 	"scripts": {
 		"test": "node --harmony tests/tests.js",
 		"cover": "node --harmony ./node_modules/istanbul/lib/cli.js cover --report html --verbose --dir coverage ./tests/tests.js"

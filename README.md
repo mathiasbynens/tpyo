@@ -73,8 +73,8 @@ For more examples, [see the tests](https://github.com/mathiasbynens/tpyo/blob/ma
 
 | [![twitter/mathias](https://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](https://twitter.com/mathias "Follow @mathias on Twitter") |
 |---|
-| [Mathias Bynens](http://mathiasbynens.be/) |
+| [Mathias Bynens](https://mathiasbynens.be/) |
 
 ## License
 
-_tpyo_ is available under the [MIT](http://mths.be/mit) license.
+_tpyo_ is available under the [MIT](https://mths.be/mit) license.

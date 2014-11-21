@@ -1,4 +1,4 @@
-/*! http://mths.be/tpyo v0.1.0 by @mathias | MIT license */
+/*! https://mths.be/tpyo v0.1.0 by @mathias | MIT license */
 (function() {
 
 	require('harmony-reflect');
