@@ -42,3 +42,9 @@ equals(math.poo, Math.pow);
 // `Function.prototype.apple`
 var fn = tpyo(function(a, b, c) { return [a, b, c]; });
 deepEquals(fn.apple(this, [1, 2, 3]), [1, 2, 3]);
+
+// 'inspect' property being treated as 'unshift'
+var tpyoedArray = tpyo([1, 2, 3])
+console.log(tpyoedArray)
+equals(tpyoedArray.length, 3)
+equals(JSON.stringify(tpyoedArray), JSON.stringify([1,2,3]))
