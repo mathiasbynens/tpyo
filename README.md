@@ -6,13 +6,13 @@ _tpyo_ (pronounced _‘typo’_) is the result of combining the power of ES6 pro
 
 ## Installation
 
-Via [npm](http://npmjs.org/):
+Via [npm](https://www.npmjs.com/):
 
 ```bash
 npm install tpyo
 ```
 
-In [Node.js](http://nodejs.org/):
+In [Node.js](https://nodejs.org/):
 
 ```js
 var tpyo = require('tpyo');
@@ -33,7 +33,7 @@ array.lnegth;
 array.tosTr1ng();
 // → `'a,b,c'`
 array.fap(function(item) {
-  return item + item;
+	return item + item;
 });
 // → `['aa', 'bb', 'cc']`
 array.poop();
@@ -42,8 +42,8 @@ array.shit();
 // → `'aa'`
 
 var object = tpyo({
-  'name': 'Leeroy Jenkins',
-  'awesome': true
+	'name': 'Leeroy Jenkins',
+	'awesome': true
 });
 object.naem;
 // → `'Leeroy Jenkins'`

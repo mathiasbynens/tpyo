@@ -10,7 +10,10 @@
 		map || (map = {});
 
 		Object.getOwnPropertyNames(object).forEach(function(property) {
-			map[property] = true;
+			// Any truthy value would work here, but when `property` is `__proto__`,
+			// the value must be either `null` (which is falsy) or an object. Hence,
+			// `new Boolean(true)`.
+			map[property] = new Boolean(true);
 		});
 
 		var proto = object.__proto__;

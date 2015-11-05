@@ -32,11 +32,11 @@
 		"tpyo.js"
 	],
 	"scripts": {
-		"test": "node --harmony tests/tests.js",
-		"cover": "node --harmony ./node_modules/istanbul/lib/cli.js cover --report html --verbose --dir coverage ./tests/tests.js"
+		"test": "node --harmony-proxies tests/tests.js",
+		"cover": "node --harmony-proxies ./node_modules/istanbul/lib/cli.js cover --report html --verbose --dir coverage ./tests/tests.js"
 	},
 	"dependencies": {
-		"harmony-reflect": "~0.0.11",
-		"levenshtein": "~1.0.2"
+		"harmony-reflect": "^1.4.2",
+		"levenshtein": "^1.0.2"
 	}
 }
