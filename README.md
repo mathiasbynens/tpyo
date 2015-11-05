@@ -12,16 +12,16 @@ Via [npm](https://www.npmjs.com/):
 npm install tpyo
 ```
 
-In [Node.js](https://nodejs.org/):
+In [Node.js](https://nodejs.org/) v5+:
 
 ```js
 var tpyo = require('tpyo');
 ```
 
-Make sure to run `node` with the `--harmony` flag:
+Make sure to run `node` with the `--harmony-proxies` flag:
 
 ```bash
-node --harmony your-script-using-tpyo.js
+node --harmony-proxies your-script-using-tpyo.js
 ```
 
 ## Examples
