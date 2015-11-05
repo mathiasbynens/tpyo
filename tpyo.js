@@ -1,4 +1,4 @@
-/*! https://mths.be/tpyo v0.1.0 by @mathias | MIT license */
+/*! https://mths.be/tpyo v1.0.0 by @mathias | MIT license */
 (function() {
 	'use strict';
 
@@ -55,7 +55,7 @@
 		});
 	};
 
-	tpyo.version = '0.1.0';
+	tpyo.version = '1.0.0';
 
 	module.exports = tpyo;
 }());
