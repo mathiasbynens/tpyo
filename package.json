@@ -1,6 +1,6 @@
 {
 	"name": "tpyo",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "A simple ES6 proxy wrapper that enables you to make typos in property names.",
 	"homepage": "https://mths.be/tpyo",
 	"main": "tpyo.js",
