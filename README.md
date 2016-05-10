@@ -18,12 +18,6 @@ In [Node.js](https://nodejs.org/) v6+:
 const tpyo = require('tpyo');
 ```
 
-Make sure to run `node` with the `--harmony-proxies` flag:
-
-```bash
-node --harmony-proxies your-script-using-tpyo.js
-```
-
 ## Examples
 
 ```js
