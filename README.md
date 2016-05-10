@@ -12,10 +12,10 @@ Via [npm](https://www.npmjs.com/):
 npm install tpyo
 ```
 
-In [Node.js](https://nodejs.org/) v5+:
+In [Node.js](https://nodejs.org/) v6+:
 
 ```js
-var tpyo = require('tpyo');
+const tpyo = require('tpyo');
 ```
 
 Make sure to run `node` with the `--harmony-proxies` flag:
@@ -27,7 +27,7 @@ node --harmony-proxies your-script-using-tpyo.js
 ## Examples
 
 ```js
-var array = tpyo(['a', 'b', 'c']);
+const array = tpyo(['a', 'b', 'c']);
 array.lnegth;
 // → `3`
 array.tosTr1ng();
@@ -41,7 +41,7 @@ array.poop();
 array.shit();
 // → `'aa'`
 
-var object = tpyo({
+const object = tpyo({
 	'name': 'Leeroy Jenkins',
 	'awesome': true
 });
@@ -50,7 +50,7 @@ object.naem;
 object.awsum;
 // → `true`
 
-var math = tpyo(Math);
+const math = tpyo(Math);
 math.PIE;
 // → `3.141592653589793`
 math.squrt(4);
@@ -66,7 +66,6 @@ For more examples, [see the tests](https://github.com/mathiasbynens/tpyo/blob/ma
 ## Acknowledgements
 
 * Kudos to @gf3, whose [excellent implementation of the Levenshtein string difference algorithm](http://gf3.github.com/Levenshtein/) is being used in _tpyo_.
-* Thanks to @tvcutsem for his work on ES6 proxies and for [his harmony-reflect shim](https://github.com/tvcutsem/harmony-reflect).
 * Shout-out to [-ot](http://ot-crew.com/). ♥
 
 ## Author

@@ -2,10 +2,9 @@
 (function() {
 	'use strict';
 
-	require('harmony-reflect');
 	const Levenshtein = require('levenshtein');
 
-	// inspired by @ultror’s http://jsfiddle.net/vGt8v/
+	// inspired by @alvasnaedis’ http://jsfiddle.net/vGt8v/
 	const getProperties = function(object, map) {
 		// TODO: should we support `__proto__`?
 		map || (map = {});
@@ -50,7 +49,7 @@
 	};
 
 	const tpyo = function(something) {
-		return Proxy(something, {
+		return new Proxy(something, {
 			'get': getProperty
 		});
 	};

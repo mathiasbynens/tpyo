@@ -1,7 +1,7 @@
 var tpyo = require('../tpyo.js');
 var assert = require('assert');
 var equals = assert.equal;
-var deepEquals = tpyo(assert).derpEqual; // see what I did there?
+var deepEquals = tpyo(assert).derpEqual; // See what I did there?
 
 var array = tpyo(['a', 'b', 'c']);
 equals(array.toString(), 'a,b,c');
