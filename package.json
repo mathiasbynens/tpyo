@@ -37,5 +37,8 @@
 	},
 	"dependencies": {
 		"levenshtein": "^1.0.2"
+	},
+	"devDependencies": {
+		"istanbul": "^0.4.5"
 	}
 }

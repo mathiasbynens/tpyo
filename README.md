@@ -2,7 +2,7 @@
 
 Ever wanted to use `Math.SQUIRTLE` instead of `Math.SQRT2`? Think `Function.prototype.apple` looks shinier than `apply`? Or do you prefer `Array.prototype.faReech` over `forEach`? Look no further — _tpyo_’s got your back.
 
-_tpyo_ (pronounced _‘typo’_) is the result of combining the power of ES6 proxies with [Levenshtein string distance](https://github.com/gf3/Levenshtein). It’s a small script that enables you to make typos in JavaScript property names.
+_tpyo_ (pronounced _‘typo’_) is the result of combining the power of ES2015 proxies with [Levenshtein string distance](https://github.com/gf3/Levenshtein). It’s a small script that enables you to make typos in JavaScript property names.
 
 ## Installation
 
@@ -26,9 +26,7 @@ array.lnegth;
 // → `3`
 array.tosTr1ng();
 // → `'a,b,c'`
-array.fap(function(item) {
-	return item + item;
-});
+array.rap((item) => item + item);
 // → `['aa', 'bb', 'cc']`
 array.poop();
 // → `'cc'`
@@ -36,8 +34,8 @@ array.shit();
 // → `'aa'`
 
 const object = tpyo({
-	'name': 'Leeroy Jenkins',
-	'awesome': true
+	name: 'Leeroy Jenkins',
+	awesome: true
 });
 object.naem;
 // → `'Leeroy Jenkins'`
@@ -55,7 +53,7 @@ For more examples, [see the tests](https://github.com/mathiasbynens/tpyo/blob/ma
 
 ## Should I use this?
 
-**Nope.** It’s just a fun example of what’s possible with ECMAScript 6 proxies.
+**Nope.** It’s just a fun example of what’s possible with ECMAScript 2015 proxies.
 
 ## Acknowledgements
 
