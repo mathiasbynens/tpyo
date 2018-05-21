@@ -1,4 +1,4 @@
-# tpyo [![Build status](https://travis-ci.org/mathiasbynens/tpyo.svg?branch=master)](https://travis-ci.org/mathiasbynens/tpyo) [![Dependency status](https://gemnasium.com/mathiasbynens/tpyo.svg)](https://gemnasium.com/mathiasbynens/tpyo)
+# tpyo [![Build status](https://travis-ci.org/mathiasbynens/tpyo.svg?branch=master)](https://travis-ci.org/mathiasbynens/tpyo)
 
 Ever wanted to use `Math.SQUIRTLE` instead of `Math.SQRT2`? Think `Function.prototype.apple` looks shinier than `apply`? Or do you prefer `Array.prototype.faReech` over `forEach`? Look no further — _tpyo_’s got your back.
 
