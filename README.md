@@ -58,7 +58,7 @@ For more examples, [see the tests](https://github.com/mathiasbynens/tpyo/blob/ma
 ## Acknowledgements
 
 * Kudos to @gf3, whose [excellent implementation of the Levenshtein string difference algorithm](http://gf3.github.com/Levenshtein/) is being used in _tpyo_.
-* Shout-out to [-ot](http://ot-crew.com/). ♥
+* Shout-out to `-ot`. ♥
 
 ## Author
 
